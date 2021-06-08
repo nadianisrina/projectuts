@@ -1,0 +1,10 @@
+{
+    "name": "fajri/tuga",
+    "description": "logindenganAPI",
+    "type": "project",
+    "license": "GLS",
+    "minimum-stability": "stable",
+    "require": {
+        "google/apiclient": "^2.9"
+    }
+}

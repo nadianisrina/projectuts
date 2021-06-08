@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	padding: 25px 0;
+}
+
+.navbar .logo {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+}
+
+.navbar ul.nav {
+	margin-right: 15%;
+}
+
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover {
+	background: rgba(95, 57, 57, 0.5);
+	color: rgb(128, 81, 81);
+
+}
+
+.navbar ul.nav li a {
+	color: rgb(134, 136, 121);
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a {
+	color: rgb(245, 245, 245);
+}
+
+#carouselExampleIndicators {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: rgb(168, 20, 20);
+}
+
+#carouselExampleIndicators .carousel-inner:before {
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: url(mcd1.jpeg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) {
+	background: url(mcd2.jpeg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3) {
+	background: url(mcd3.jpeg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4) {
+	background: url(mcd2.jpeg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
+	background: url(mcd3.jpeg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item h1 {
+	height: auto;
+	color: rgb(251, 255, 7);
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 5.5em;
+	font-weight: 750;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item p {
+	height: auto;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+footer {
+	background-color: rgba(39, 10, 10, 0.76);
+	color: rgb(177, 177, 177);
+	padding: 2rem 0 2rem;
+	margin-top: 300px;
+}
+
+footer a {
+	color: rgb(0, 0, 0);
+}
+
+.szfoto {
+	background: url(mcd4.jpeg);
+	width: 300px;
+    height: 300px;
+}
+
+.gmbr {
+    margin-left: 20%;
+}

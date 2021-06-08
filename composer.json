@@ -1,0 +1,8 @@
+{
+    "name": "nadiamcd/nadiamcd",
+    "type": "project",
+    "license": "GPL",
+    "require": {
+        "google/apiclient": "^2.9"
+    }
+}
